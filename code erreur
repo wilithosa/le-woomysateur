@@ -1,0 +1,9 @@
+Client.on("guildMemberAdd", member => {
+    console.log("un member est arrivé !");
+    member.guild.channels.cache.find(channel => channel.id === "946082171096023100").send("bienvenue à toi et passe un exelent moment !");
+    });
+
+Client.on("guildMemberRemove", member => {
+    console.log("un member est partie !");
+    member.guild.channels.cache.find(channel => channel.id === "946082171096023100").send("ho tu es partis j'espere que tu a passé un exelent moment !");
+    });

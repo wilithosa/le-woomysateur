@@ -1,0 +1,5 @@
+const { CategoryChannel, Client } = require('discord.js')
+const Discord = require('Discord.js')
+const bot = new Discord.Client()
+
+bot.login('OTcyNTk5MTczNTI0MzY5NDE4.YnbZkA.lR7wMsg0jvl9F8FM8YmK39t3IvY')
